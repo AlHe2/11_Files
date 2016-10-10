@@ -63,7 +63,7 @@ namespace _11_Files
                 Assert.AreEqual(hp, loaded);
             }
             finally {
-                output.Delete();
+                output.Delete(); 
             }
         }
 
